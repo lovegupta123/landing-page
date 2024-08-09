@@ -1,0 +1,151 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(252, 249, 249);
+    height: 6vh;
+    padding: 0.7rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: sticky;
+}
+
+#logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background:-webkit-linear-gradient(#4c3af1, #e41173);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Heading {
+    justify-content: space-around;
+    background-color: rgb(252, 249, 249);
+}
+
+#Heading a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(252, 249, 249);
+    margin-right: 0.4rem;
+}
+
+#Loginbtn {
+    border-radius: 0.25rem;
+    border: none;
+    color: white;
+    background-color: rgb(0, 140, 255);
+    padding: 0.25rem;
+}
+
+#Home {
+    background-image: url(img.jpg);
+    height: 90vh;
+    background-size: cover;
+    position: relative;
+}
+
+#Home p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Home h2 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+hr {
+    height: 0.6vh;
+    background-color: gray;
+}
+
+#cards {
+    margin: 0.25rem;
+}
+
+.cardbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem;
+    border-bottom: solid 1px gray;
+}
+
+.textcard {
+    height: 50vh;
+    width: 75%;
+    line-height: 1.5rem;
+}
+
+.imgcard {
+    height: 50vh;
+    width: 40vh;
+    border: 1px solid gray;
+}
+
+.imgcard img {
+    height: 50vh;
+    width: 40vh;
+}
+
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 2em;
+}
+
+#contact h2 {
+    margin-top: 0;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+#icon {
+    text-align: center;
+}
+
+#copyright {
+    text-align: center;
+    margin: auto;
+    color: rgb(235, 230, 230);
+    font-size: 30px;
+    padding: 0.8rem;
+}
+
+.bgblack {
+    background-color: rgb(53, 52, 52);
+}
